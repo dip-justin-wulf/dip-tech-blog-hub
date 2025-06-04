@@ -5,8 +5,7 @@ export const members: Member[] = [
     id: "catnose",
     name: "CatNose",
     role: "CTO",
-    bio:
-      "デザインが好きなプログラマー。開発者向けの情報共有プラットフォームzenn.devを開発しています。",
+    bio: "デザインが好きなプログラマー。開発者向けの情報共有プラットフォームzenn.devを開発しています。",
     avatarSrc: "/avatars/catnose.jpg",
     sources: [
       "https://zenn.dev/catnose99/feed",
@@ -59,5 +58,16 @@ export const members: Member[] = [
     bio: "IT professional with 3 years of experience",
     avatarSrc: "/avatars/alexandria.jpg",
     sources: [],
+  },
+  {
+    id: "jtwulf",
+    name: "Justin Wulf",
+    role: "Backend Engineer",
+    bio: "自分が何者なのかわからないです",
+    avatarSrc: "/avatars/justin.jpg",
+    sources: ["https://zenn.dev/jtwulf/feed"],
+    twitterUsername: "jtwulf",
+    githubUsername: "jtwulf",
+    websiteUrl: "https://zenn.dev/jtwulf",
   },
 ];
