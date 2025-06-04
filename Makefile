@@ -10,7 +10,7 @@ down:       ##dockerコンテナ停止
 	@docker compose down
 
 dev:        ##devサーバー起動
-	@docker compose exec app npm run dev
+	@docker compose run --service-ports app npm run dev
 
 lint:       ##linter実行
 	cd src && npm run lint

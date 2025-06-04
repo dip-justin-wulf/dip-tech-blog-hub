@@ -9,7 +9,7 @@ class MyDocument extends Document {
           <link
             rel="icon shortcut"
             type="image/png"
-            href={`${config.siteRoot}/logo.png`}
+            href={`${config.siteRoot}/dip_logo.png`}
           />
           <link
             rel="stylesheet"

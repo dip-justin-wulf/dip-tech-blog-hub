@@ -21,7 +21,7 @@ const PostLink: React.FC<{ item: PostItem }> = (props) => {
 
   return (
     <article className="post-link">
-      <Link href={getMemberPath(member.id)} passHref>
+      <Link href={getMemberPath(member.id)} passHref legacyBehavior>
         <a className="post-link__author">
           <img
             src={member.avatarSrc}

@@ -37,7 +37,7 @@ const Page: NextPage = () => {
         <ContentWrapper>
           <div className="home-section-title-container">
             <h2 className="home-section-title">Members</h2>
-            <Link href="/members">
+            <Link href="/members" legacyBehavior>
               <a className="home-section-link">See Details →</a>
             </Link>
           </div>

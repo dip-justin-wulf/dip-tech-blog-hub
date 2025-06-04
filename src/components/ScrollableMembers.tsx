@@ -10,6 +10,7 @@ export const ScrollableMembers: React.FC = () => {
           key={`scrollable-member-${i}`}
           href={getMemberPath(member.id)}
           passHref
+          legacyBehavior
         >
           <a className="scrollable-member__link">
             <span className="scrollable-member__image">
