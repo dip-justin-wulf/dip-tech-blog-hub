@@ -62,7 +62,7 @@ export const members: Member[] = [
   {
     id: "jtwulf",
     name: "Justin Wulf",
-    role: "Backend Engineer",
+    role: "逆フルスタックエンジニア",
     bio: "自分が何者なのかわからないです",
     avatarSrc: "/avatars/justin.jpg",
     sources: ["https://zenn.dev/jtwulf/feed"],
